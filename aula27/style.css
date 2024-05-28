@@ -1,0 +1,34 @@
+a:link{
+    color: rgba(173, 216, 230, 0.37);
+}
+a:hover{
+    color: blue;
+    font-size: 1.1em;
+}
+
+a:active{
+    font-size: 1.1em;
+    color: red;
+}
+a:visited{
+    color: green;
+}
+
+li:not(:hover){/*Faz o oposto*/
+    background-color: yellow;
+    cursor: pointer;
+}
+
+li:nth-child(odd){/*Em JavaScript, :nth-child() é uma pseudo-classe CSS usada para selecionar elementos com base em sua posição relativa entre os irmãos dentro de seu elemento pai. Por exemplo, :nth-child(2) selecionará o segundo filho do elemento pai.*/
+    background-color: rgb(0, 255, 255);
+}
+
+#greeting p{
+    background-color: rgb(90, 161, 202);
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
+}

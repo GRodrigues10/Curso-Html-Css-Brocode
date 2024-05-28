@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    /*background-color: red;*/
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out; /*ele acelera e depois desalera ao chegar no destino*/
+    
+}
+
+#box:hover{
+    /*animation-name: glow;
+    animation-duration: 2s;*/
+}
+
+@keyframes slideLeft{
+    from{transform:translateX(300%)}/*vai para esquerda e termina em sua posição de repouso.*/
+}
+
+@keyframes slideRight{
+    to{transform:translateX(300%)}/*vai para direita e termina em sua posição de repouso.*/
+}
+
+@keyframes slideUp{
+    from{transform:translateY(300%)}/*vai para cima e termina em sua posição de repouso.*/
+}
+
+@keyframes slideDown{
+    to{transform:translateY(300%)}/*vai para baixo e termina em sua posição de repouso.*/
+}
+
+@keyframes rotate{
+    50%{transform:rotateY(360deg)}/*50 %faz a animação e depois retorna*/
+}
+
+@keyframes grow{
+    100%{transform: scale(2, 2)}/*  50%faz a animação e depois retorna*/
+}
+
+
+@keyframes shrink{
+    100%{transform: scale(0.5, 0.5)}/*  50%faz a animação e depois retorna*/
+}
+
+
+@keyframes fade{
+    50%{opacity: 0}/*  50%faz a animação e depois retorna*/
+}
+
+@keyframes colorChange{/*muda cor*/
+    0%{background-color: red;}
+    20%{background-color: rgb(145, 255, 0);}
+    40%{background-color: rgb(4, 0, 255);}
+    60%{background-color: red;}
+    80%{background-color: rgb(0, 255, 128);}60%{background-color: red;}
+    100%{background-color: rgb(145, 76, 76);}
+}
+
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellow;}
+}

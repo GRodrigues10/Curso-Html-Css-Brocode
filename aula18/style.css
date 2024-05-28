@@ -1,0 +1,11 @@
+h1{
+    text-shadow: 1px 1px 5px rgb(255, 12, 12), -1px -1px 5px rgb(48, 12, 255) /*Primeiro valor é para o deslocamento horizontal, o segundo para o vertical e o terceiro é o desfoque.*/
+    /*Eu também criei duas sombras.*/
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(151, 154, 156, 0.548);
+    box-shadow: 3px 3px 5px black;
+}

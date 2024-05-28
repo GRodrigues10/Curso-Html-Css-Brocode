@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;/* Com box-sizing: border-box, a largura e altura definidas incluem tanto o conteúdo quanto o padding e as bordas, mantendo o tamanho total do elemento constante. */
+}
+
+.container{
+    background-color: grey;
+    height: 100vh;
+}
+
+.box{
+    background-color: white;
+    border: 2px solid;
+    height: auto;/*Altura de acordo com a página*/
+    width: 50%;
+    float: right;
+    padding: 25px;
+    text-align: center;
+min-height: 50%;
+}

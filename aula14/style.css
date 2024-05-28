@@ -1,0 +1,31 @@
+p:hover{
+    background-color: blue;
+}
+p:active{
+    background-color: green;
+}
+
+#p1{
+    color: yellow;
+}
+#p2{
+    color: green;
+}
+#p3{
+    color: red;
+}
+#p4{
+    color: blue;
+}
+
+.odd{
+    color: rgb(255, 253, 253);
+}
+
+.even{
+    color: brown;
+}
+
+body{
+    background-color: black;
+}

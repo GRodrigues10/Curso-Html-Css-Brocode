@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;/*Calculando o fator de largura em todos os padding, alinha os elementos*/
+}
+
+
+body{
+    margin:0;
+
+}
+
+header{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+    background-color: rgb(83, 73, 73);
+    height: 50px;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    clear: both;/*limpa o float*/
+    background-color: lightgrey;
+    text-align: center;
+    padding: 25px;
+}
+
+@media screen and(max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}

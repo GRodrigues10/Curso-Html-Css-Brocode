@@ -1,0 +1,14 @@
+body{
+    border: 3px solid;
+    display: flow-root;/*Qualquer coisa que estiver flutuando, vai ficar dentro do container, não irá transbordar.
+}
+
+#img1{
+    float: left;
+    margin-right: 10px;/*A propriedade float permite que os outros elementos flutuem ao redor dela.*/
+}
+
+#img2{
+    float: right;
+    margin-left: 10px;
+}

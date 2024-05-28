@@ -1,0 +1,15 @@
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    /*visibility: hidden;Esconde mais mantém o espaço*/
+    display: none;/*Desaparece com o item, não mantém o espaço*/
+}
+
+span{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: block;/*Permite aplicar largura e altura para o span*/
+}

@@ -1,0 +1,54 @@
+.container{/*Para colocar itens no meio, é só criar uma v do tamanaho viewport mais ou menos e depois alinhar os itens no centro.*/
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    /*flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;*/
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: lightblue;
+    align-self: center;/*Alinha itens individualmente*/
+    order: 1;
+}
+
+#box2{
+    background-color: yellow;
+}
+
+#box3{
+    background-color: green;
+    order: -1;
+}
+
+#box4{
+    background-color: rgb(252, 11, 11);
+}
+
+#box5{
+    background-color: brown;
+}
+
+#box6{
+    background-color: purple;
+}
+
+
+#box7{
+    background-color: rgb(70, 63, 63);
+}
+
+
+#box8{
+    background-color: lightgreen;
+}

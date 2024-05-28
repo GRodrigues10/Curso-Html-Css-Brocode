@@ -1,0 +1,15 @@
+@font-face {
+    font-family: nova;
+    src: url(fonts/PoetsenOne-Regular.ttf);
+}
+
+h1{
+    font-family: nova;
+}
+
+p{
+    font-family:Jaro;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: oblique;
+}
